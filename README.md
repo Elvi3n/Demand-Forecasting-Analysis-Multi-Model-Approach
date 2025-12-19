@@ -2,7 +2,9 @@
 Inventory optimization tool designed to applying behavior-specific forecasting models to historical sales data.
 
 # Project Overview
-This project is a comprehensive demand forecasting tool built in Excel to address diverse product demand behaviors. It applies specific statistical models—ranging from Regression to Seasonal Indices—to provide accurate future projections. The goal is to provide insights that help businesses minimize stockouts and prevent backorders.
+## Business Problem and Solution
+Generic forecasting methods often fail to account for the unique market behaviors of different products, leading to costly inventory imbalances.
+This tool solves that by applying appropriate statistical models—such as regression and seasonality indices to align procurement precisely with specific demand patterns.
 
 # Methodology & Models
 
@@ -26,7 +28,14 @@ This project identifies four primary demand behaviors and implements a targeted 
 - Logic: A hybrid approach. First, a linear regression establishes the "De-seasonalized" trend line; then, seasonality indices are reapplied to the regression result.
 - Formula: $\hat{y} = (mx + b) \times Seasonality Index$
 
-# Repo Structure
-```
+## Repository Structure
 
 ```
+Demand Forecasting Analysis Multi Model Approach
+├── Quarterly Demand Forecast                            
+├── README.md                          
+└── LICENSE                             
+```
+
+# License
+MIT License (free to use with attribution).
