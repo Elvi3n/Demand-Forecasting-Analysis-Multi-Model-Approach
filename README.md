@@ -6,7 +6,7 @@ This project is a comprehensive demand forecasting tool built in Excel to addres
 
 # Methodology & Models
 
-The project accounts for four distinct demand behaviors, and applying a specific statistical approach to each:
+This project identifies four primary demand behaviors and implements a targeted statistical methodology for each:
 
 **1. Stable Demand (Normal Distribution)**
 - Use Case: Products with consistent sales and minimal fluctuations.
