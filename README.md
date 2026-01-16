@@ -1,6 +1,4 @@
-# Project Overview
-
-## Business Problems to Solve
+# Business Problems to Solve
 Generic forecasting methods often fail to account for the unique market behaviors of different products, leading to costly inventory imbalances.
 This tool solves that by applying appropriate statistical models using Excel—such as regression and seasonality indices to align procurement precisely with specific demand patterns.
 
